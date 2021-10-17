@@ -1,0 +1,136 @@
+:root {
+
+--clr1: hsl(225, 100%, 94%);
+--clr2: hsl(245, 75%, 52%);
+--clr3: hsl(225, 100%, 98%);
+--clr4: hsl(224, 23%, 55%);
+--clr5: hsl(223, 47%, 23%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    margin: 0;
+    color: var(--clr4);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    /* width: 100%; */
+    height: auto;
+}
+
+section {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 7rem 2.4rem;
+    height: 100vh;
+}
+
+.summary-order {
+    background-color: #fff;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.payment {
+    text-align: center;
+    padding: 0 2.4rem 3rem;
+}
+
+p {
+    margin-top: 0rem;
+}
+
+.desc {
+    max-width: 25ch;
+}
+
+h2 {
+    margin-top: 2.3rem;
+    margin-bottom: 1.2rem;
+    font-size: 2.2rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: var(--clr5);
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 1rem;
+    background-color: var(--clr3);
+    padding: 1.4rem 1.5rem;
+    margin-top: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+a {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--clr2);
+    padding-bottom: 0;
+}
+
+a:focus,
+a:hover {
+    color:var(--clr5);
+}
+
+.music {
+    height: 100%;
+}
+
+.accent {
+    font-size: 1.3rem;
+    color: var(--clr5);
+    font-weight: 900;
+}
+
+span {
+    color: var(--clr4);
+}
+
+.btn {
+    width: 100%;
+    border: 0;
+    background: 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn-accent {
+    color: #fff;
+    background-color: var(--clr2);
+    padding: 1.7rem 0;
+}
+
+.btn-accent:focus,
+.btn-accent:hover {
+    background-color: var(--clr4);
+}
+
+.btn-blank {
+    margin-top: 2.5rem;
+    color: var(--clr4);
+    width: max-content;
+}
+
+.btn-blank:focus,
+.btn-blank:hover {
+    color: var(--clr5);
+}
